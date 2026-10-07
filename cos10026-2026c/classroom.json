@@ -1,0 +1,25 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "COS10026 2026C",
+  "short_name": "cos10026-2026c",
+  "term": "2026C",
+  "org": "BH-Classrooms",
+  "team": {
+    "id": 19974038,
+    "slug": "classroom50-cos10026-2026c"
+  },
+  "teams": {
+    "teacher": {
+      "id": 19974039,
+      "slug": "classroom50-cos10026-2026c-teacher"
+    },
+    "hta": {
+      "id": 19974040,
+      "slug": "classroom50-cos10026-2026c-hta"
+    },
+    "ta": {
+      "id": 19974042,
+      "slug": "classroom50-cos10026-2026c-ta"
+    }
+  }
+}
