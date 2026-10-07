@@ -172,7 +172,7 @@ jobs:
               json.dump({"classrooms": rooms}, fh)
           PY
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: site
           path: _site
@@ -192,7 +192,7 @@ jobs:
     env:
       PAGES_REPO: ${{ github.repository_owner }}/classroom50-pages
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: site
           path: _site
