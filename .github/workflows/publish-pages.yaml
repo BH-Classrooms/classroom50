@@ -18,8 +18,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # queue: max lets every publish wait its turn; the default single-slot queue
 # cancels the middle run when three saves land close together. Keep
@@ -70,7 +68,7 @@ jobs:
           }
           # runner.py (org-level bootstrap) published at the site root
           # so the autograde-runner workflow can fetch it from
-          #   https://<org>.github.io/classroom50/runner.py
+          #   https://<org>.github.io/classroom50-pages/runner.py
           # regardless of which classroom triggered the run.
           if [ -f .github/scripts/runner.py ]; then
             cp .github/scripts/runner.py _site/runner.py
@@ -174,16 +172,52 @@ jobs:
               json.dump({"classrooms": rooms}, fh)
           PY
 
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-artifact@v5
         with:
+          name: site
           path: _site
+          include-hidden-files: true
 
+  # Private repos on a plan without private Pages can't use deploy-pages, so
+  # the assembled site is pushed to a separate PUBLIC repo
+  # (<org>/classroom50-pages) that serves it via branch-based Pages
+  # (Settings > Pages > Deploy from branch: main, / (root)).
+  # Requires the PAGES_DEPLOY_TOKEN secret: a token with contents:write on
+  # that repo.
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+    env:
+      PAGES_REPO: ${{ github.repository_owner }}/classroom50-pages
     steps:
-      - id: deployment
-        uses: actions/deploy-pages@v5
+      - uses: actions/download-artifact@v5
+        with:
+          name: site
+          path: _site
+
+      - name: Push site to public Pages repo
+        env:
+          PAGES_DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$PAGES_DEPLOY_TOKEN" ]; then
+            echo "::error::PAGES_DEPLOY_TOKEN secret is not set"
+            exit 1
+          fi
+          echo "::add-mask::$PAGES_DEPLOY_TOKEN"
+          git clone --depth 1 "https://x-access-token:${PAGES_DEPLOY_TOKEN}@github.com/${PAGES_REPO}.git" pages
+          cd pages
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a ../_site/. .
+          touch .nojekyll
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No site changes to publish"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Publish site from ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
+          git push origin HEAD

@@ -114,7 +114,7 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
-          BASE_URL="https://${REPO_OWNER}.github.io/classroom50"
+          BASE_URL="https://${REPO_OWNER}.github.io/classroom50-pages"
           RUNNER_SCRIPT="${RUNNER_TEMP:-/tmp}/classroom50-runner.py"
           if curl -fsSL --max-time 30 --retry 3 --retry-delay 2 --retry-all-errors \
                "${BASE_URL}/runner.py" -o "$RUNNER_SCRIPT"; then
@@ -220,7 +220,7 @@ jobs:
               fail(f".classroom50.yaml field 'secret' has invalid value {secret!r} (must match {_SECRET.pattern!r}). Re-run `gh student accept`")
 
           owner = os.environ["REPO_OWNER"]
-          base_url = f"https://{owner}.github.io/classroom50"
+          base_url = f"https://{owner}.github.io/classroom50-pages"
 
           def get(url):
               for attempt in range(3):
