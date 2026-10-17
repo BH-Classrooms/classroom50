@@ -45,6 +45,26 @@
               "classroom": "cos10026-2026c",
               "assignment_type": "individual",
               "owner": "106394071",
+              "submission": "submit/2026-10-17T02-51-19Z-2f88a4e",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/commit/2f88a4ec74ffb8b617dee307403ab80f847a97cd",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/releases/tag/submit%2F2026-10-17T02-51-19Z-2f88a4e",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/compare/e1571e5b3ea97416f1a404d7df286c7dea29ede9...2f88a4ec74ffb8b617dee307403ab80f847a97cd",
+              "datetime": "2026-10-17T02:50:58Z",
+              "graded_at": "2026-10-17T02:51:29Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "106394071",
+                "id": 331094433
+              },
+              "late": false
+            },
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "106394071",
               "submission": "submit/2026-10-17T02-44-25Z-27758d2",
               "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/commit/27758d20731f71f1f7cb71ea372bf06d7d861329",
               "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/releases/tag/submit%2F2026-10-17T02-44-25Z-27758d2",
@@ -168,18 +188,184 @@
               "late": false
             }
           ]
-        }
-      ],
-      "collected_at": "2026-10-17T02:49:26Z",
-      "detected": [
+        },
         {
           "owner": "106214700",
-          "count": 2,
-          "latest_datetime": "2026-10-17T02:46:01Z",
-          "late": false,
-          "kind": "commit"
+          "first_name": "B\u00f9i Th\u1ebf",
+          "last_name": "Vinh",
+          "email": "106214700@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "106214700",
+              "submission": "submit/2026-10-17T02-52-30Z-40adcc6",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106214700/commit/40adcc6add0df506758573223b9b145e5daa296e",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106214700/releases/tag/submit%2F2026-10-17T02-52-30Z-40adcc6",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106214700/compare/4f1d2ff5ec857d66e5cef37e9ef526f35a54f53b...40adcc6add0df506758573223b9b145e5daa296e",
+              "datetime": "2026-10-17T02:52:12Z",
+              "graded_at": "2026-10-17T02:52:46Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "106214700",
+                "id": 231157960
+              },
+              "late": false
+            }
+          ]
+        },
+        {
+          "owner": "sonyarmstrong1127",
+          "first_name": "Phan Quang",
+          "last_name": "Huy",
+          "email": "sonyarmstrong1127@gmail.com",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "sonyarmstrong1127",
+              "submission": "submit/2026-10-17T02-53-41Z-3679b2b",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-sonyarmstrong1127/commit/3679b2bb6d2cb5bd2fdaaf22f6e07eb7455825d3",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-sonyarmstrong1127/releases/tag/submit%2F2026-10-17T02-53-41Z-3679b2b",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-sonyarmstrong1127/compare/d4961d34109135acf780c41b756c8124bf4bb4fe...3679b2bb6d2cb5bd2fdaaf22f6e07eb7455825d3",
+              "datetime": "2026-10-17T02:53:25Z",
+              "graded_at": "2026-10-17T02:53:53Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "sonyarmstrong1127",
+                "id": 253189636
+              },
+              "late": false
+            }
+          ]
+        },
+        {
+          "owner": "NguyenPham023",
+          "first_name": "Ph\u1ea1m Ph\u01b0\u01a1ng",
+          "last_name": "Nguy\u00ean",
+          "email": "106393049@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "nguyenpham023",
+              "submission": "submit/2026-10-17T02-53-24Z-e592caf",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-nguyenpham023/commit/e592cafdfb772dbd45c83d0021adcd64ed39232c",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-nguyenpham023/releases/tag/submit%2F2026-10-17T02-53-24Z-e592caf",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-nguyenpham023/compare/0dabbf4451b2c1f15477a38bd5ccfcbd58f60cae...e592cafdfb772dbd45c83d0021adcd64ed39232c",
+              "datetime": "2026-10-17T02:53:06Z",
+              "graded_at": "2026-10-17T02:53:38Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "NguyenPham023",
+                "id": 295372452
+              },
+              "late": false
+            }
+          ]
+        },
+        {
+          "owner": "106679338",
+          "first_name": "Nguy\u1ec5n L\u00ea",
+          "last_name": "Anh",
+          "email": "106679338@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "106679338",
+              "submission": "submit/2026-10-17T02-52-17Z-e8b3563",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106679338/commit/e8b35637eb1f284da1e20718b6cf798fb4666176",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106679338/releases/tag/submit%2F2026-10-17T02-52-17Z-e8b3563",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106679338/compare/f60470077caa9695733a7ec2636db1714fd7052c...e8b35637eb1f284da1e20718b6cf798fb4666176",
+              "datetime": "2026-10-17T02:51:51Z",
+              "graded_at": "2026-10-17T02:52:28Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "106679338",
+                "id": 331102167
+              },
+              "late": false
+            }
+          ]
+        },
+        {
+          "owner": "AnhPhu06",
+          "first_name": "Nguy\u1ec5n V\u00f5 Anh",
+          "last_name": "Ph\u00fa",
+          "email": "105555013@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "anhphu06",
+              "submission": "submit/2026-10-17T02-54-45Z-8315bc8",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-anhphu06/commit/8315bc8abf8be7acbcb859767e517e9d0998cec7",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-anhphu06/releases/tag/submit%2F2026-10-17T02-54-45Z-8315bc8",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-anhphu06/compare/e05dc06523df6e7f08dc7e6716ee0dc32d2677f3...8315bc8abf8be7acbcb859767e517e9d0998cec7",
+              "datetime": "2026-10-17T02:54:27Z",
+              "graded_at": "2026-10-17T02:54:56Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "AnhPhu06",
+                "id": 331107408
+              },
+              "late": false
+            }
+          ]
+        },
+        {
+          "owner": "LEMINHTRI-bit",
+          "first_name": "L\u00ea Minh",
+          "last_name": "Tr\u00ed",
+          "email": "leeminhtris172@gmail.com",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "leminhtri-bit",
+              "submission": "submit/2026-10-17T02-59-03Z-39fdce7",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-leminhtri-bit/commit/39fdce7ba25cbd99c94ece4607b978e1a11c2749",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-leminhtri-bit/releases/tag/submit%2F2026-10-17T02-59-03Z-39fdce7",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-leminhtri-bit/compare/8acdf3585ddb19ff0b0650b1286039f5339f6cba...39fdce7ba25cbd99c94ece4607b978e1a11c2749",
+              "datetime": "2026-10-17T02:55:06Z",
+              "graded_at": "2026-10-17T02:59:14Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "LEMINHTRI-bit",
+                "id": 331107539
+              },
+              "late": false
+            }
+          ]
         }
-      ]
+      ],
+      "collected_at": "2026-10-17T02:59:57Z",
+      "detected": []
     }
   }
 }
