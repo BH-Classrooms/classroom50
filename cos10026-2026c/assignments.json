@@ -18,9 +18,6 @@
       "grading": {
         "mode": "manual",
         "max_points": 2
-      },
-      "pages": {
-        "source": "workflow"
       }
     }
   ]
