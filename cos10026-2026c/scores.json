@@ -45,6 +45,26 @@
               "classroom": "cos10026-2026c",
               "assignment_type": "individual",
               "owner": "106394071",
+              "submission": "submit/2026-10-17T02-44-25Z-27758d2",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/commit/27758d20731f71f1f7cb71ea372bf06d7d861329",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/releases/tag/submit%2F2026-10-17T02-44-25Z-27758d2",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/compare/e1571e5b3ea97416f1a404d7df286c7dea29ede9...27758d20731f71f1f7cb71ea372bf06d7d861329",
+              "datetime": "2026-10-17T02:44:06Z",
+              "graded_at": "2026-10-17T02:44:37Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "106394071",
+                "id": 331094433
+              },
+              "late": false
+            },
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "106394071",
               "submission": "submit/2026-10-17T02-42-58Z-ed0acd6",
               "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/commit/ed0acd6edd74f71b03283864b69e66043ebaeaf4",
               "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-106394071/releases/tag/submit%2F2026-10-17T02-42-58Z-ed0acd6",
@@ -121,7 +141,7 @@
           ]
         }
       ],
-      "collected_at": "2026-10-17T02:44:40Z",
+      "collected_at": "2026-10-17T02:46:19Z",
       "detected": [
         {
           "owner": "106214700",
