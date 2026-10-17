@@ -139,14 +139,43 @@
               "late": false
             }
           ]
+        },
+        {
+          "owner": "Thangdicode",
+          "first_name": "D\u01b0\u01a1ng Ti\u1ebfn",
+          "last_name": "Th\u1eafng",
+          "email": "106681919@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "thangdicode",
+              "submission": "submit/2026-10-17T02-46-48Z-8317433",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-thangdicode/commit/8317433041172eca669d42bc595169e501b23dff",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-thangdicode/releases/tag/submit%2F2026-10-17T02-46-48Z-8317433",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-thangdicode/compare/2204d8a3a95155781dc9fe017ab0db5409841e84...8317433041172eca669d42bc595169e501b23dff",
+              "datetime": "2026-10-17T02:46:24Z",
+              "graded_at": "2026-10-17T02:46:59Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "Thangdicode",
+                "id": 133779404
+              },
+              "late": false
+            }
+          ]
         }
       ],
-      "collected_at": "2026-10-17T02:46:19Z",
+      "collected_at": "2026-10-17T02:49:26Z",
       "detected": [
         {
           "owner": "106214700",
-          "count": 1,
-          "latest_datetime": "2026-10-17T02:43:26Z",
+          "count": 2,
+          "latest_datetime": "2026-10-17T02:46:01Z",
           "late": false,
           "kind": "commit"
         }
