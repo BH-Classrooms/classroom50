@@ -422,8 +422,16 @@
           ]
         }
       ],
-      "collected_at": "2026-10-17T03:06:50Z",
-      "detected": []
+      "collected_at": "2026-10-17T03:14:03Z",
+      "detected": [
+        {
+          "owner": "Quan-TDL",
+          "count": 1,
+          "latest_datetime": "2026-10-17T03:13:16Z",
+          "late": false,
+          "kind": "commit"
+        }
+      ]
     }
   }
 }
