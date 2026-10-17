@@ -420,18 +420,39 @@
               "late": false
             }
           ]
-        }
-      ],
-      "collected_at": "2026-10-17T03:14:03Z",
-      "detected": [
+        },
         {
           "owner": "Quan-TDL",
-          "count": 1,
-          "latest_datetime": "2026-10-17T03:13:16Z",
-          "late": false,
-          "kind": "commit"
+          "first_name": "Tr\u1ea7n \u0110\u0103ng L\u00ea",
+          "last_name": "Qu\u00e2n",
+          "email": "106215761@student.swin.edu.au",
+          "section": "2026C",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cos10026-2026c",
+              "assignment_type": "individual",
+              "owner": "quan-tdl",
+              "submission": "submit/2026-10-17T03-13-36Z-f493714",
+              "commit": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-quan-tdl/commit/f493714166424e78e5f2745a997a51e641354635",
+              "release": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-quan-tdl/releases/tag/submit%2F2026-10-17T03-13-36Z-f493714",
+              "review": "https://github.com/BH-Classrooms/cos10026-2026c-cos10026-2026c-w05-lab-quan-tdl/compare/03a2a536e73c34ae088ef5ccbd4c3375eac56eec...f493714166424e78e5f2745a997a51e641354635",
+              "datetime": "2026-10-17T03:13:16Z",
+              "graded_at": "2026-10-17T03:13:48Z",
+              "score": 0,
+              "max-score": 0,
+              "tests": [],
+              "submitted_by": {
+                "username": "Quan-TDL",
+                "id": 328888260
+              },
+              "late": false
+            }
+          ]
         }
-      ]
+      ],
+      "collected_at": "2026-10-17T03:16:45Z",
+      "detected": []
     }
   }
 }
