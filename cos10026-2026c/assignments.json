@@ -55,6 +55,25 @@
       "grading": {
         "mode": "off"
       }
+    },
+    {
+      "slug": "cos10026-2026c-w07-lab-t03",
+      "name": "COS10026-2026C-W07-LAB-T03",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": false,
+      "empty_repo": true,
+      "due": "2026-11-07T05:00:00Z",
+      "due_meta": {
+        "input": "2026-11-07T12:00:00",
+        "zone": "Asia/Saigon",
+        "offset": "+07:00",
+        "source": "auto-detected"
+      },
+      "grading": {
+        "mode": "manual",
+        "max_points": 1
+      }
     }
   ]
 }
