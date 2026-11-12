@@ -74,6 +74,25 @@
         "mode": "manual",
         "max_points": 1
       }
+    },
+    {
+      "slug": "cos10026-2026c-w08-lab",
+      "name": "COS10026-2026C-W08-LAB",
+      "mode": "individual",
+      "autograder": "default",
+      "feedback_pr": false,
+      "empty_repo": true,
+      "due": "2026-11-12T16:59:00Z",
+      "due_meta": {
+        "input": "2026-11-12T23:59:00",
+        "zone": "Asia/Saigon",
+        "offset": "+07:00",
+        "source": "auto-detected"
+      },
+      "grading": {
+        "mode": "manual",
+        "max_points": 2
+      }
     }
   ]
 }
